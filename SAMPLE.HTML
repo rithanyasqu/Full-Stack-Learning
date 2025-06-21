@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div onclick="dropdown()" style="background-color: blanchedalmond; width: fit-content;">   <h1 style="color: blue;padding: 20px 30px;">hey hello</h1></div>
+   <div id="drop" style="background-color: blanchedalmond; width: fit-content; flex-direction: column;display: none;">   <h1 style="color: blue;padding: 20px 30px;">hey hello</h1> <h1 style="color: blue;padding: 20px 30px;">hey hello</h1> <h1 style="color: blue;padding: 20px 30px;">hey hello</h1></div>
+<div style="display: inline;">hey</div>
+<div style="display: inline;">hey</div>
+<div style="display: block;">hey</div>
+<div style="display: inline-block;">hey</div>
+    <script>
+        function dropdown(){
+           let v=document.getElementById("drop").style.display;
+           v==="none"?"flex":"none";
+        }
+    </script>
+</body>
+</html>

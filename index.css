@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.heart {
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 999999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart img {
+    padding: 16px;
+    width: 24px;
+    height: 24px;
+
+}
+
+.Calender {
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 999999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calender img {
+    padding: 16px;
+    width: 24px;
+    height: 24px;
+
+}
+
+.diamond {
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 999999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diamond img {
+    padding: 16px;
+    width: 24px;
+    height: 24px;
+
+}
+
+.gear {
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 999999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gear img {
+    padding: 16px;
+    width: 24px;
+    height: 24px;
+
+}
+.logo{
+    width: fit-content;
+    height: fit-content;
+}
+.features{
+    width: fit-content;
+ display: flex;
+ flex-direction: column;
+ height: 42%;
+ justify-content: space-between;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 24px;
+    align-items: center;
+    height: 92vh;
+    justify-content: space-between;
+    float: left;
+    
+}
+
+.cube{
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+.cube img{
+     padding: 16px;
+    width: 20px;
+    height: 20px;
+}
+.chart{
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+      margin-left: 16px;
+}
+.chart img{
+     padding: 16px;
+    width: 20px;
+    height: 20px;
+}
+.chat{
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    margin-left: 16px;
+}
+.chat img{
+     padding: 16px;
+    width: 20px;
+    height: 20px;
+}
+.features2{
+    width: fit-content;
+ display: flex;
+ 
+}
+.search{
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 9999999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      margin-left: 16px;
+    
+}
+.search img{
+     padding: 16px;
+    width: 20px;
+    height: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+     position: absolute;
+    top: 0;
+    margin-left:12vw ;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 85vw;
+}
+.notification{
+    background-color: #C13326;
+    width: 20px;
+    height: 20px;
+    border-radius: 99999999999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+.notification p{
+    padding: 6px;
+    width: fit-content;
+}
+.features2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav2{
+    background-color: #1E1E1E;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 16px;
+}
+.nav2 img{
+ padding: 16px;
+    width: 20px;
+    height: 20px
+}
