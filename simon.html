@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="one">hey</button>
+    <button  id="two">hey</button>
+    <button  id="three">hey</button>
+    <button  id="four">hey</button>
+</body>
+<script>
+    
+    var arr=["one","two","three","four"]
+    let cor=[];
+    var start=1;
+    simon();
+    function simon(){
+      cor=[];
+   for(let i=0;i<start;i++){
+        setTimeout(myGreeting, i*1000);
+    function myGreeting(){
+        let ran=arr[Math.floor(4*Math.random())];
+        let btn = document.getElementById(ran);
+        cor[i]=ran;
+        console.log(cor[i]+" random value")
+        console.log(cor)
+btn.style.backgroundColor="blue";
+setTimeout(() => {
+        btn.style.backgroundColor="" 
+        }, 500);
+    }
+    }
+    }
+    document.querySelectorAll("button").forEach(button => {
+    button.addEventListener("click", function(event) {
+        for(let i=0;i<start;i++){
+   if(cor[i]==event.target.id){
+    temp=1+i;
+            if(temp==start){
+               start++;
+                simon();
+                console.log("win this round "+i)
+           
+            }
+            else{
+            console.log("go gi "+ i)
+        
+            }
+       }
+    //    else{
+    //     console.log("loss");
+    //     start=1;
+    //     simon();
+    //    }
+        }
+    
+    //   console.log("You clicked:", event.target.id); // e.g., "btn1"
+    
+    });
+  });
+//     play();
+//  function play(){
+//  for(let i=0;i<start;i++){   
+// document.getElementById("one").addEventListener("click",check1)
+//      document.getElementById("two").addEventListener("click",check2)
+//       document.getElementById("three").addEventListener("click",check3)
+//        document.getElementById("four").addEventListener("click",check4)
+       
+//     function check1(){
+//         if(cor[i]=="one"){
+//            let temp=i;
+//             if(++i==start){
+//          start++;
+//          console.log(cor[temp]+" win")
+      
+//         simon();
+//             }
+//         }
+//         else{
+//             console.log(cor[i]+" loss")
+            
+//         }
+//     }
+//      function check2(){
+//         if(cor[i]=="two"){
+//          console.log(cor[i]+" win")
+         
+//         }
+//         else{
+//             console.log(cor[i]+" loss")
+           
+//         }
+//     }
+//      function check3(){
+//         if(cor[i]=="three"){
+//          console.log(cor[i]+" win")
+       
+//         }
+//         else{
+//             console.log(cor[i]+" loss")
+           
+//         }
+//     }
+//      function check4(){
+//         if(cor[i]=="four"){
+//          console.log(cor[i]+" win")
+        
+//         }
+//         else{
+//             console.log(cor[i]+" loss")
+         
+//         }
+//     }
+//     }
+//  }
+   
+    
+</script>
+</html>

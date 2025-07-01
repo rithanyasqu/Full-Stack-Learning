@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1">Click me</button>
+<button id="btn2">Click me</button>
+
+<script>
+  document.querySelectorAll("button").forEach(button => {
+    button.addEventListener("click", function(event) {
+      console.log("You clicked:", event.target.id); // e.g., "btn1"
+    });
+  });
+</script>
+
+</body>
+</html>

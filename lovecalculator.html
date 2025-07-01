@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg{
+            background-color: yellow;
+        }
+        .huge{
+            font-size: larger;
+        }
+        .ch{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <input placeholder="enter your name">
+     <input placeholder="enter your partner's name">
+     <button class="bg" onclick="per();c()" >Calculate</button>
+     <h1 id="percentage" style="color: red;"></h1>
+     <button></button>
+     <script>
+        function per(){
+        document.getElementById("percentage").innerHTML=Math.floor(100*(Math.random()))+"%"
+        document.querySelector("#percentage").classList.add("bg")
+        //  document.querySelector("#percentage").classList.add("huge")
+        // document.querySelector("#percentage").classList.toggle("bg")
+        // document.querySelector("#percentage").classList.toggle("bg")
+        }
+        
+        function c(){
+           document.querySelector(".bg").classList.add("ch")
+        }
+
+     </script>
+</body>
+</html>
